@@ -1,8 +1,10 @@
+import { ReactNode } from 'react';
+
 import { RatesContext } from './RatesContext';
 import { useFetchRates } from '../hooks/useFetchRates';
 
 export type RatesProviderProps = {
-    children: React.ReactNode;
+    children: ReactNode;
 };
 
 export const RatesProvider = ({ children }: RatesProviderProps) => {

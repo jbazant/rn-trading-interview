@@ -8,7 +8,9 @@
         "ios": "expo start --ios",
         "web": "expo start --web",
         "test": "jest --coverage",
-        "format": "yarn prettier --write \"**/*.{js,ts,tsx,json}\""
+        "test:watch": "jest --watch",
+        "format": "yarn prettier --write \"**/*.{js,ts,tsx,json}\"",
+        "type-check": "yarn tsc --build"
     },
     "dependencies": {
         "@expo/metro-runtime": "~5.0.5",
